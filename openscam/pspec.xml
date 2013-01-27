@@ -10,7 +10,7 @@
         </Packager>
         <License>GPLv2</License>
         <IsA>app:gui</IsA>
-        <Summary>OpenScam</Summary>
+        <Summary>Open-Source software which can simulate 3-axis NC machining.</Summary>
         <Description>Open-Source software which can simulate 3-axis NC machining. It is a fast, flexible and user friendly simulation software for the DIY and Open-Source community.</Description>
         <Archive sha1sum="9af05f001b157aefb45e109501604702513a34ca" type="tarbz2">http://openscam.com/releases/alpha/release/openscam/debian-testing-64bit/v0.0/openscam_0.0.11.tar.bz2</Archive>
         <BuildDependencies>
