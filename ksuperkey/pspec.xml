@@ -15,28 +15,28 @@
         <Archive sha1sum="477fac7efc3ec5c8b058bcb93e53a66fa3cce814" type="targz">http://kde-apps.org/CONTENT/content-files/154569-ksuperkey-0.3.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>kde-workspace-devel</Dependency>
-	    <Dependency>libX11-devel</Dependency>
-	    <Dependency>libXtst-devel</Dependency>
+            <Dependency>libX11-devel</Dependency>
+            <Dependency>libXtst-devel</Dependency>
         </BuildDependencies>
     </Source>
     <Package>
         <Name>ksuperkey</Name>
-	<RuntimeDependencies>
-	    <Dependency>kde-workspace</Dependency>
-	    <Dependency>libX11</Dependency>
-	    <Dependency>libXtst</Dependency>
-	</RuntimeDependencies>
+        <RuntimeDependencies>
+            <Dependency>kde-workspace</Dependency>
+            <Dependency>libX11</Dependency>
+            <Dependency>libXtst</Dependency>
+        </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-	    <Path fileType="data">/usr/share/applications</Path>
-	    <Path fileType="data">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/doc</Path>
             <Path fileType="doc">/usr/share/autostart</Path>
         </Files>
-	<AdditionalFiles>
+        <AdditionalFiles>
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/ksuperkey.desktop">ksuperkey.desktop</AdditionalFile>
             <!--for autostart -->
-	    <AdditionalFile owner="root" permission="0644" target="/usr/share/autostart/ksuperkey.desktop">ksuperkey.desktop</AdditionalFile>
-	</AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/autostart/ksuperkey.desktop">ksuperkey.desktop</AdditionalFile>
+        </AdditionalFiles>
     </Package>
     <History>
         <Update release="1">
